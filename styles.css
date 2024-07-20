@@ -1,12 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'EB Garamond';
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #012169;
 }
 
 header {
-    background: #333;
+    background: #012169;
     color: #fff;
     padding: 1rem;
     text-align: center;

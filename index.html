@@ -3,27 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Gabriel Alexander Mendoza</title>
+    <title>Gabriel Mendoza's Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Hey! Welcome to my website!</h1>
+        <div class="header-content">
+            <h1>GABRIEL MENDOZA</h1>
+            <div class="social-links">
+                <a href="https://gitlab.oit.duke.edu/gam70" class="header-link">View Gitlab</a>
+                <a href="https://www.linkedin.com/in/gabeamendoza" class="header-link">View Linkedin</a>
+            
+        </div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <h2>Home Page Content</h2>
-        <p>This is the home page of my personal website.</p>
+        <section id="intro">
+            <h2>Introduction</h2>
+            <div class="intro-content">
+                <img src="images/photos/beach.JPG" alt="Beach">
+                <div class="intro-text">
+                    <h3>Welcome to my personal webpage!</h3>
+                    <p>Hello! My name is Gabe, and I am a junior undergraduate at Duke studying Computer Science and Economics.
+                        I am passionate about using my software development skills to build solution towards environmental sustainability.
+                        By leveraging technology, I aim to address environmental challenges and make a positive impact on our planet through green-focused software development. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>
+                    As a junior undergraduate at Duke University learning everything I can about software and coding, I am amazed at the possibilities for technology to create solutions for the some of world's greatest environmental challenges. I believe that software engineering can be a powerful tool in solving environmental challenges.
+                </p>
+                <p>
+                    My academic journey has equipped me with a strong foundation in software development and data analysis. At Duke, I have learned coding skills across various programming languages including Python, Java, R, and C++. I have also gained hands-on experience with tools such as Docker, Jupyter, GIS, and Voila.
+                </p>
+                <p>
+                    This past summer, I worked for Duke Facilities Management (DFM) to develop prototype models that dynamically estimate the number of people in specific facility spaces across Duke's campus using WiFi and CO2 data. This spatial occupancy knowledge allows DFM to more efficiently allocating heating and AC throughout the year, decreasing Duke's energy consumption and CO2 production, and increasing space utilization.
+                </p>
+                <p>
+                    In my spare time, I love singing with my A Cappella group, The Pitchforks. We regularly sing at gigs around Duke's campuses, for the children at the Duke Hospital, and at event around the Durham area. Additionally, I love playing pickup soccer and I am currently "training" for a Gaga ball tournament this Spring!
+                </p>
+                <p>
+                    I am excited to continue leveraging my skills and passion to develop innovative solutions that address environmental challenges and make a positive impact on our world.
+                </p>
+
+
+
+
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="images/photos/project1.jpg" alt="Project 1">
+                <div class="project-text">
+                    <h3>Project 1</h3>
+                    <p>...</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/photos/project2.jpg" alt="Project 2">
+                <div class="project-text">
+                    <h3>Project 2</h3>
+                    <p>...</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/photos/project3.jpg" alt="Project 3">
+                <div class="project-text">
+                    <h3>Project 3</h3>
+                    <p>...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-links">
+                <a href="www.google.com"><img src="images/contact/instagram.jpg" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/gabeamendoza"><img src="images/contact/linkedin.jpg" alt="LinkedIn"></a>
+                <a href="mailto:gabriel.mendoza@duke.edu"><img src="images/contact/mail.jpg" alt="Mail"></a>
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Gabe Mendoza</p>
-    </footer>
 </body>
 </html>

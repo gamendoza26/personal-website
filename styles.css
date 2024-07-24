@@ -111,12 +111,14 @@ section h3 {
 }
 
 .intro-content, .about-content, .project {
+    position: relative;
     border: 2px solid black;
     border-radius: 8px;
     padding: 1rem;
     margin: 1rem;
     background-color: #ffffff;
-    font-size: 2rem
+    font-size: 2rem;
+    overflow: hidden;
 }
 
 .intro-content {
@@ -125,14 +127,35 @@ section h3 {
 }
 
 #intro .intro-content img {
-    max-width: 40%;  /* ensures the image will not be larger than 40% of its container */
-    height: auto;  /* maintains the aspect ratio */
+    
+    width: 400px;  
+    height: auto; 
     margin-right: 2rem;
-    max-height: 500px;  /* optional: set a max height to prevent the image from becoming too large */
+    max-height: 500px;
+    border-radius:8px;
+    border: 2px solid black
 }
 
 .intro-text {
     flex: 1;
+}
+
+.about-img-top-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    width: 400px; 
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.about-img-bottom-left {
+    float: left; 
+    margin: 1rem 1rem 0 0; 
+    width: 400px; 
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid black;
 }
 
 .project {

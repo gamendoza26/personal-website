@@ -218,8 +218,9 @@ section {
 }
 
 .project-box img {
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin: 1rem;
 }
 
 .project-text {

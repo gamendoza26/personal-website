@@ -183,12 +183,12 @@ section {
 }
 
 .internship-text {
-    max-width: 600px;
+    padding: 3rem;
 }
 
 .internship-text h3 a {
     color: rgb(118, 74, 74);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .internship-text h3 a:hover {

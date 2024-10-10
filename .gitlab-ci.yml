@@ -2,7 +2,11 @@ pages:
   stage: deploy
   script:
     - mkdir public
-    - cp -r * public
+    - cp index.html public/
+    - cp styles.css public/
+    - cp -r image public/  # Adjust this line if your images folder is named differently
   artifacts:
     paths:
       - public
+  only:
+    - main  # Ensure you're deploying from the correct branch (change if you're using a different branch)

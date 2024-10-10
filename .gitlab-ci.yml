@@ -4,7 +4,7 @@ pages:
     - mkdir public
     - cp index.html public/
     - cp styles.css public/
-    - cp -r image public/  # Adjust this line if your images folder is named differently
+    - cp -r images public/  # Adjust this line if your images folder is named differently
   artifacts:
     paths:
       - public

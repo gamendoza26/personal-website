@@ -27,6 +27,8 @@ header {
 
 .social-links {
     margin-top: 1rem;
+    bottom: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     gap: 1rem
@@ -39,12 +41,19 @@ header {
     font-size: 1.2rem;
 }
 
-.social-links a {
+.social-links {
+    bottom: 1rem;
+    position: absolute;
+}
+
+.social-links a{
+    padding: 1rem;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border: 1px solid #fff;
     border-radius: 4px;
 }
+
 
 .social-links a:hover {
     background-color: #fff;

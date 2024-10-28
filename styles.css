@@ -224,6 +224,24 @@ section {
     overflow: hidden;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
     border: 2px solid black;
+    transition: transform 0.3s ease; /* Adds smooth scaling transition */
+}
+
+.project-box:hover {
+    transform: scale(1.05); /* Scales up slightly on hover */
+}
+
+.project-box .project-video {
+    width: 90%; /* Full width of the container */
+    aspect-ratio: 16 / 9; /* Set aspect ratio to prevent squishing */
+    border: none; /* Removes black border */
+    margin: 1rem; /* Remove any margin */
+    display: block; /* Ensures the iframe fills the container */
+    transition: transform 0.3s ease;
+}
+
+.project-box:hover iframe.project-video {
+    transform: scale(1.05); /* Matches scaling effect on hover */
 }
 
 .project-box img {
